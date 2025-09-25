@@ -1,0 +1,14 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+ 0 "..\\sx\\PBL\\HRSXPP\\hrsxpp.pbt";
+@end;
+@begin Targets
+ 0 "erpm.pbt";
+ 1 "..\\hita\\hita12\\NEW\\erpm.pbt";
+ 2 "test.pbt";
+ 3 "..\\dznew\\erpm.pbt";
+ 4 "..\\hita\\hita12-2\\NEW\\erpm.pbt";
+ 5 "..\\wjtel\\display\\PB12\\ap_tel_display.pbt";
+@end;
+DefaultTarget "..\\dznew\\erpm.pbt";
+DefaultRemoteTarget "..\\dznew\\erpm.pbt";

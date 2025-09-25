@@ -1,0 +1,13 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "..\\wjclient\\pb12\\wjmclnt.pbt";
+ 1 "..\\wjclient\\pb12\\aftdown.pbt";
+ 2 "..\\wjclnt\\pb12\\wjm_msg.pbt";
+ 3 "..\\wjclnt\\pb12\\aftdwn.pbt";
+ 4 "..\\wjclnt\\pb12\\autodown\\filednload.pbt";
+ 5 "..\\wjclient\\pb12\\autodown\\filednload.pbt";
+@end;
+DefaultTarget "..\\wjclient\\pb12\\wjmclnt.pbt";
+DefaultRemoteTarget "..\\wjclient\\pb12\\wjmclnt.pbt";
