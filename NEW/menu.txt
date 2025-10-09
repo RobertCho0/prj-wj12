@@ -1,0 +1,493 @@
+DELETE FROM M_MENU
+WHERE	MENU_ID LIKE 'SI%'
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7100000000', '영업관리', '1', '71', NULL, NULL, NULL, NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7110000000', '계획관리', '1', '7110', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7110100000', '판매계획등록', '1', '711010', 'w_si711001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si711001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7110200000', '판매계획현황', '1', '711020', 'w_si713050', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713050.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7120000000', '수주관리', '1', '7120', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7120010000', '주문등록', '1', '712001', 'w_si712001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si712001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7120100000', '수주등록', '1', '712010', 'w_si712010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si712010.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7120200000', '수주내역', '1', '712020', 'w_si712020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si712020.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7120210000', 'BARCODE출고', '1', '712021', 'w_si712003', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si712003.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7120250000', 'BARCODE출고2', '1', '712025', 'w_si712004', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si712004.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7120300000', '수주현황', '1', '712022', 'w_si712022', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si712022.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7120400000', '수주리스트', '1', '712023', 'w_si712023', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si712023.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7120500000', '주문정보관리', '1', '712024', 'w_si712040', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si712040.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7130000000', '판매관리', '1', '7130', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7130100000', '판매출고', '1', '713001', 'w_si713001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7130200000', '저장출고', '1', '713002', 'w_si713002', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713002.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7130400000', '영업반품', '1', '713004', 'w_si713004', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713004.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7130600000', '저장정리', '1', '713006', 'w_si713006', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713006.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7131100000', '입출고리스트', '1', '713011', 'w_si713011', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713011.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7131200000', '판매출고내역', '1', '713012', 'w_si713012', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713012.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7131300000', '진단정리내역', '1', '713013', 'w_si713013', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713013.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7131400000', '진단출고내역', '1', '713014', 'w_si713014', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713014.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7131500000', '영업반품내역', '1', '713015', 'w_si713015', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713015.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7132500000', '영업지시현황', '1', '713030', 'w_si713030', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713030.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7140000000', '매출관리', '1', '7140', NULL, NULL, NULL, NULL)
+GO
+--INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+--VALUES ('SI7141000000', '품목별판매현황', '1', '714010', 'w_si714010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si714010.pbd,si00000.pbd', NULL)
+--GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7142000000', '일괄매출마감', '1', '714020', 'w_si714020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si714020.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI714210000', '건별매출마감', '1', '714021', 'w_si714021', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si714021.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7143000000', '매출전표관리', '1', '714030', 'w_si714030', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si714030.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7143100000', '총괄매출발행', '1', '714031', 'w_si714031', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si714031.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7143200000', '총괄매출관리', '1', '714031', 'w_si714032', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si714032.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7144000000', '영업청구서', '1', '714040', 'w_si714040', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si714040.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7145000000', '매출발행현황', '1', '714050', 'w_si714050', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si714050.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7146000000', '영업회계원장비교', '1', '714060', 'w_si714060', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si714060.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7150000000', '채권관리', '1', '7150', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7151000000', '수금등록', '1', '715010', 'w_si715010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si715010.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7152000000', '수금현황', '1', '715020', 'w_si715020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si715020.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7153000000', '채권현황', '1', '715030', 'w_si715030', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si715030.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7154000000', '수금마감', '1', '715040', 'w_si715040', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si715040.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7155000000', '현잔고회전관리', '1', '715050', 'w_si715050', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si715050.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7160000000', '영업분석', '1', '7160', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7161000000', '판매현황', '1', '716010', 'w_si713020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si713020.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7162000000', '품목거래처판매현황', '1', '716020', 'w_si716001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si716001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7162300000', '회계품목판매현황', '1', '716023', 'w_si716002', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si716002.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7162500000', '영업거래처원장', '1', '716025', 'w_si716011', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si716011.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7163000000', '거래명세장', '1', '716030', 'w_si716020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si716020.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7164000000', '거래처현황', '1', '716040', 'w_si712050', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si712050.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7165000000', '분류별 월판매조회', '1', '716050', 'w_si716050', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si716050.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7166100000', '영업활동성과표', '1', '716061', 'w_si716061', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si716061.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7166200000', '거래처별판매계획실적조회', '1', '716062', 'w_si716062', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si716062.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7166300000', '회계품목별판매계획실적조회', '1', '716063', 'w_si716063', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si716063.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7166400000', '회계품목별판매계획실적조회-회사', '1', '716064', 'w_si716064', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si716064.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7170000000', '영업활동', '1', '7170', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7170100000', '영업활동현황', '1', '717001', 'w_si717001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si717001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7171000000', '상담등록', '1', '717010', 'w_si717010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si717010.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7180000000', '대리점메뉴', '1', '7180', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7180100000', '주문등록', '1', '718001', 'w_si718001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si718001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7181000000', '거래처원장', '1', '718010', 'w_si718010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si718010.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7182000000', '주문내역', '1', '718020', 'w_si718020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si718020.pbd,si00000.pbd', NULL)
+GO
+
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7200000000', '구매관리', '1', '72', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7220000000', '구매발주', '1', '7220', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7220100000', '구매발주', '1', '722001', 'w_si722001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si722001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7220200000', '구매발주서', '1', '722002', 'w_si722002', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si722002.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7221000000', '발주현황', '1', '722010', 'w_si722010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si722010.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7221100000', '발주리스트', '1', '722011', 'w_si722011', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si722011.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7221500000', '품목별발주리스트', '1', '722015', 'w_si722020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si722020.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7222000000', '발주량계산', '1', '722020', 'w_si723021', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si723021.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7223000000', '무역주간보고', '1', '722030', 'w_si722030', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si722030.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7224000000', 'Status Of Order', '1', '722040', 'w_si722040', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si722040.pbd,si00000.pbd', NULL)
+GO
+
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7230000000', '구매가입고', '1', '7230', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7230100000', '구매가입고', '1', '723001', 'w_si723001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si723001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7231000000', '가입고처리내역', '1', '723010', 'w_si723010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si723010.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7232000000', '수주발주품목', '1', '723020', 'w_si723020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si723020.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7240000000', '매입관리', '1', '7240', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7240100000', '국내매입마감', '1', '724001', 'w_si724001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si724001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7240200000', '수입매입마감', '1', '724002', 'w_si724004', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si724004.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7240300000', '매입전표관리', '1', '724003', 'w_si724003', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si724003.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7250000000', '수입관리', '1', '7250', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7251000000', '수입비용내역', '1', '725010', 'w_si725010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si725010.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7251100000', '수입비용등록', '1', '725011', 'w_si725011', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si725011.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7251200000', '수입원가정산', '1', '725012', 'w_si725012', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si725012.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7251300000', '수입비용정산', '1', '725013', 'w_si725016', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si725016.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7251400000', '수입비용마감', '1', '725014', 'w_si725013', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si725013.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7251500000', '월별수입비용집계', '1', '725015', 'w_si725014', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si725014.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7251600000', '미착정산보고서', '1', '725016', 'w_si725015', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si725015.pbd,si00000.pbd', NULL)
+GO
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7251700000', '수입원가정산서', '1', '725017', 'w_si725017', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si725017.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7300000000', '물류관리', '1', '73', NULL, NULL, NULL, NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7310000000', '출고관리', '1', '7310', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7310100000', '고객출고리스트', '1', '731011', 'w_si731011', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si731011.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7310200000', '출고작업', '1', '731020', 'w_si731020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si731020.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7310300000', '출고처리현황', '1', '731030', 'w_si731030', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si731030.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7310400000', '출고미처리현황', '1', '731031', 'w_si731031', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si731031.pbd,si00000.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7320000000', '입고관리', '1', '7320', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7320100000', '구매입고', '1', '732001', 'w_si732001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si732001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7320200000', '영업반품입고', '1', '732002', 'w_si732002', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si732002.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7320300000', '입고처리현황', '1', '732030', 'w_si732030', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si732030.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7320400000', '입고미처리현황', '1', '732031', 'w_si732031', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si732031.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7330000000', '재고관리', '1', '7330', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7330100000', '재고이동', '1', '733001', 'w_si733001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si733001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7330200000', '재고조정', '1', '733002', 'w_si733002', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si733002.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7330300000', '교환반품', '1', '733003', 'w_si733003', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si733003.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7330400000', '교환반품현황', '1', '733004', 'w_si733004', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si733004.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7330500000', 'SET작업', '1', '733005', 'w_si733005', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si733005.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7331000000', '입고/출고 보고서', '1', '733010', 'w_si733010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si733010.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340000000', '재고자산현황', '1', '7340', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340010000', '현재재고현황', '1', '734001', 'w_si734001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340020000', '현재재고현황B', '1', '734002', 'w_si734005', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734005.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340030000', '재고수불내역', '1', '734003', 'w_si734003', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734003.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340100000', '기간별입출내역', '1', '734010', 'w_si734010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734010.pbd,si00000.pbd', NULL)
+GO
+--INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+--VALUES ('SI7340200000', '기간입출고현황', '1', '734020', 'w_si734020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734020.pbd,si00000.pbd', NULL)
+--GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340300000', '거래처별진단용현황', '1', '734030', 'w_si734030', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734030.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340400000', '재고현황', '1', '734040', 'w_si734040', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734040.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340500000', '재고현황(상세)', '1', '734050', 'w_si734050', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734050.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340510000', '재고현황(회사)', '1', '734051', 'w_si734051', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734051.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340520000', '모델재고현황(상세)', '1', '734052', 'w_si734052', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734052.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340550000', '거래처저장재고현황', '1', '734055', 'w_si734060', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734060.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340600000', '저장용미정리현황', '1', '734060', 'w_si734070', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si734070.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340700000', 'ICL/TICL 집계', '1', '734070', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340701100', '재고현황', '1', '73407011', 'w_si735031', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si735031.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340701200', 'TICL 출고현황', '1', '73407012', 'w_si735032', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si735032.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340701300', '병원별 모델별 출고현황', '1', '73407013', 'w_si735033', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si735033.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7340701400', '모델별 도수별 집계', '1', '73407014', 'w_si735034', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si735034.pbd,si00000.pbd', NULL)
+GO
+
+
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7900000000', '기준정보', '1', '79', NULL, NULL, NULL, NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7350000000', '재고자산평가', '1', '7350', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7350010000', '재고자산현황', '1', '735001', 'w_si735001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si735001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7350020000', '월재고자산평가', '1', '735002', 'w_si735002', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si735002.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7360000000', '바코드관리', '1', '7360', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7360100000', '시리얼관리', '1', '736001', 'w_si736001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si736001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7360200000', '바코드관리', '1', '736002', 'w_si736002', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si736002.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7360300000', '시리얼추적', '1', '736010', 'w_si736010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si736010.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7360400000', '유효기간관리', '1', '736020', 'w_si736020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si736020.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7360450000', '유효기간관리B', '1', '736040', 'w_si736040', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si736040.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7360500000', '거래처별바코드이력', '1', '736050', 'w_si736030', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si736030.pbd,si00000.pbd', NULL)
+GO
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7910000000', '품목관리', '1', '7910', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7910100000', '품목등록', '1', '791010', 'w_si791001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si791001.pbd,si00000.pbd', NULL)
+GO
+
+--INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+--VALUES ('SI7910200000', '규격체계', '1', '791020', 'w_si791010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si791010.pbd,si00000.pbd', NULL)
+--GO
+
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7920000000', '물류정보', '1', '7920', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7920100000', '거래처', '1', '792010', 'w_si792001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si792001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7920200000', '창고', '1', '792020', 'w_si792010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si792010.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7920210000', '기본물류등록', '1', '792021', 'w_si792011', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si792011.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7920300000', '분류체계', '1', '792030', 'w_si792020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si792020.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7920400000', '회사달력', '1', '792040', 'w_si792030', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si792030.pbd,si00000.pbd', NULL)
+GO
+
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7930000000', '가격관리', '1', '7930', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7930100000', '판매가격', '1', '793010', 'w_si793001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si793001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7930200000', '계약판매단가조정', '1', '793020', 'w_si793002', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si793002.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7930300000', '기준판매단가조정', '1', '793030', 'w_si793003', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si793003.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7930400000', '판매정책', '1', '793040', 'w_si793010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si793010.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7930500000', '구매가격관리', '1', '793050', 'w_si793020', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si793020.pbd,si00000.pbd', NULL)
+GO
+
+
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7940000000', '시스템관리', '1', '7940', NULL, NULL, NULL, NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7940200000', '관리코드', '1', '794010', 'w_si794001', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si794001.pbd,si00000.pbd', NULL)
+GO
+INSERT INTO M_MENU(MENU_ID, MENU_NAME, FG_MENU, MENU_POS, WINDOW_NAME, FG_MODULE, FILE_NAMES, CUST_REPORT_NO) 
+VALUES ('SI7940300000', '시스템설정', '1', '794020', 'w_si794010', NULL, 'sicom_app.pbd,sicom_dw.pbd,sicom_func.pbd,sicom_help.pbd,sicom_stru.pbd,sicom_uo.pbd,si794010.pbd,si00000.pbd', NULL)
+GO
